@@ -2,11 +2,11 @@ import styled from 'styled-components'
 
 export const MainContainer = styled.div`
   display: flex;
-  flex-direction:column
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
-   background-image: linear-gradient(to bottom, #0b0c1e, #3c2940);
+  background-image: linear-gradient(to bottom, #0b0c1e, #3c2940);
 `
 
 export const UnlockContainer = styled.div`
@@ -22,6 +22,7 @@ export const UnlockContainer = styled.div`
     height: 250px;
   }
 `
+
 export const LockContainer = styled.div`
   display: flex;
   flex-direction: column;
